@@ -1,33 +1,22 @@
 <img src="https://coursesandconferences.wellcomeconnectingscience.org/wp-content/themes/wcc_courses_and_conferences/dist/assets/svg/logo.svg" width="300" height="50"> 
 
-# Add Course Title
+# Multiplex assays of variant effects (MAVEs): Approaches, Analysis, and Interpretation
 
 [Wellcome Connecting Science GitHub Home Page](https://github.com/WCSCourses) <br /> 
-[Wellcome Connecting Science Website](https://coursesandconferences.wellcomeconnectingscience.org/)
+[Wellcome Connecting Science Website](https://coursesandconferences.wellcomeconnectingscience.org/event/multiplex-assays-of-variant-effects-maves-approaches-analysis-and-interpretation-20251123/)
 
-Add one line description of the course (the same needs to be added on the right side of the page in the description)
+Learn how to analyse, assess, and interpret MAVE data for clinical and research applications 
 
 ### Summary
 
-Add text here
+Multiplex assays of variant effects (MAVEs) are a series of high throughput experimental methods used to interrogate the phenotypic or functional effects of thousands of genetic variants in parallel. They have rapidly increased our ability to assess variants of uncertain significance (VUS) where rare or unknown variants may be responsible for pathogenic disease-associated effects. Their recent adoption into clinical diagnostics provides additional evidence for variant interpretation and translation.
 
-### Target Audience
-
-Add text here
-
-### Learning outcomes
-
-Add text here
-
-### Programme
-
-Add text here
 
 **Course Runs**      
 
 | Course Date | Course Title | Location |Citation DOI |
 |-------------|--------------|----------|-------------|
-| Add Course Run Dates  | [Add Course Run Title](Add Github Repository link) | Location|Citation DOI |
+| 23–28 November 2025  | [Multiplex assays of variant effects (MAVEs): Approaches, Analysis, and Interpretation]() | Wellcome Genome Campus, Hinxton |Citation DOI |
 
 ******
 
