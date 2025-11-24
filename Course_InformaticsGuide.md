@@ -7,17 +7,18 @@
 | [Software Name](Software link) | Version Details | Module Name| Space for notes |
 
 
-# notebook bash kernel
+## notebook bash kernel
 ```bash
 pip install bash_kernel
 python -m bash_kernel.install
 ```
  
-# Nextflow version 23.10.1
+## Nextflow version 23.10.1
 ```bash
 export NXF_VER=23.10.1
-curl -s https://get.nextflow.io | bash_kernel
+curl -s https://get.nextflow.io | bash
 mv nextflow ~/.local/bin/nextflow
+chmod +x ~/.local/bin/nextflow
 ```
 
 ## Informatics Set-Up
