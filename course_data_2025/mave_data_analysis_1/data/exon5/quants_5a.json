@@ -1,0 +1,19 @@
+{
+	"max_cpus":4,
+	"single_end":true,
+	"input_type":"fastq",
+	"raw_sequencing_qc":true,
+	"adapter_trimming":"cutadapt",
+	"adapter_trimming_qc":true,
+	"adapter_cutadapt_options":"-a AGATCGGAAGAGCGGTTCAGCAGGAATGCCG",
+	"primer_trimming":"cutadapt",
+	"primer_trimming_qc":true,
+	"primer_cutadapt_options":"-a GGATCCCCATTCTTGATGTATATGGGC...CTACCACATGATATTGGGTACTATT",
+	"read_modification":true,
+	"append_start":"AATGATACGGCGACCACCGA",
+	"append_end":"TCGTATGCCGTCTTCTGCTTG",
+	"append_quality":"?",
+	"transform_library":true,
+	"pyquest_library_converter_options":"-N 1 -S 24",
+	"quantification":"pyquest"
+}
