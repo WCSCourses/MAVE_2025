@@ -6,6 +6,20 @@
 |-------------|--------------|----------|-------------|
 | [Software Name](Software link) | Version Details | Module Name| Space for notes |
 
+
+# notebook bash kernel
+```bash
+pip install bash_kernel
+python -m bash_kernel.install
+```
+ 
+# Nextflow version 23.10.1
+```bash
+export NXF_VER=23.10.1
+curl -s https://get.nextflow.io | bash_kernel
+mv nextflow ~/.local/bin/nextflow
+```
+
 ## Informatics Set-Up
 For installation and setup, please refer to the following guides:
 
