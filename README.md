@@ -85,6 +85,7 @@ Participants will also complete group projects using existing datasets to consol
 - [Julia Foreman](https://www.ebi.ac.uk/people/person/julia-foreman/), EMBL EBI, UK
 - [Sophie Allen](#), The Institute of Cancer Research, UK
 - [Miranda Durkie](https://www.sheffieldchildrens.nhs.uk/staff/miranda-durkie/), NHS North East Yorkshire Genomic Laboratory Hub, UK
+- [Victoria Offord](https://www.sanger.ac.uk/person/offord-victoria/), Wellcome Sanger Institute, UK
 
 **Wellcome Connecting Science Team**
 
