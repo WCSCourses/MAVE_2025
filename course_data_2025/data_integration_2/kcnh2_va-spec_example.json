@@ -1,0 +1,511 @@
+{
+    "annotation": {
+        "contributions": [
+            {
+                "activityType": "software application programming interface",
+                "contributor": {
+                    "agentType": "Software",
+                    "description": "MaveDB API agent, version 2025.5.0",
+                    "extensions": [
+                        {
+                            "name": "mavedbApiVersion",
+                            "value": "2025.5.0"
+                        }
+                    ],
+                    "name": "MaveDB API",
+                    "type": "Agent"
+                },
+                "date": "2025-11-25 00:00:00",
+                "description": "Contribution from the MaveDB API",
+                "name": "MaveDB API",
+                "type": "Contribution"
+            },
+            {
+                "activityType": "human genome sequence mapping process",
+                "contributor": {
+                    "agentType": "Software",
+                    "description": "MaveDB VRS mapping agent, version 2025.2.0",
+                    "extensions": [
+                        {
+                            "name": "mavedbVrsVersion",
+                            "value": "2025.2.0"
+                        }
+                    ],
+                    "name": "MaveDB VRS Mapping Agent",
+                    "type": "Agent"
+                },
+                "date": "2025-10-04 00:00:00",
+                "description": "Contribution from the MaveDB VRS mapping software",
+                "name": "MaveDB VRS Mapper",
+                "type": "Contribution"
+            },
+            {
+                "activityType": "variant specific calibration software",
+                "contributor": {
+                    "agentType": "Software",
+                    "description": "Zeiberg variant calibrator, see https://github.com/Dzeiberg/mave_calibration",
+                    "name": "Zeiberg Variant Calibrator",
+                    "type": "Agent"
+                },
+                "description": "Contribution from the Zeiberg Calibration software",
+                "name": "Zeiberg Calibration",
+                "type": "Contribution"
+            },
+            {
+                "activityType": "http://purl.obolibrary.org/obo/CRO_0000105",
+                "contributor": {
+                    "agentType": "Person",
+                    "description": "MaveDB ORCid authenticated user 0000-0002-7565-2463",
+                    "name": "0000-0002-7565-2463",
+                    "type": "Agent"
+                },
+                "date": "2025-10-21 00:00:00",
+                "description": "When this resource was first submitted, and by whom.",
+                "extensions": [
+                    {
+                        "name": "resourceType",
+                        "value": "Variant"
+                    }
+                ],
+                "name": "MaveDB Dataset Creator",
+                "type": "Contribution"
+            },
+            {
+                "activityType": "http://purl.obolibrary.org/obo/CRO_0000103",
+                "contributor": {
+                    "agentType": "Person",
+                    "description": "MaveDB ORCid authenticated user 0000-0002-7565-2463",
+                    "name": "0000-0002-7565-2463",
+                    "type": "Agent"
+                },
+                "date": "2025-10-21 00:00:00",
+                "description": "When this resource was last modified, and by whom.",
+                "extensions": [
+                    {
+                        "name": "resourceType",
+                        "value": "Variant"
+                    }
+                ],
+                "name": "MaveDB Dataset Modifier",
+                "type": "Contribution"
+            }
+        ],
+        "description": "Pathogenicity evidence line urn:mavedb:00001231-a-2#1.",
+        "directionOfEvidenceProvided": "disputes",
+        "evidenceOutcome": {
+            "name": "ACMG 2015 BS3 Criterion Met",
+            "primaryCoding": {
+                "code": "BS3_moderate",
+                "system": "ACMG Guidelines, 2015"
+            }
+        },
+        "hasEvidenceItems": [
+            {
+                "classification": {
+                    "primaryCoding": {
+                        "code": "normal",
+                        "system": "ga4gh-gks-term:experimental-var-func-impact-classification"
+                    }
+                },
+                "contributions": [
+                    {
+                        "activityType": "software application programming interface",
+                        "contributor": {
+                            "agentType": "Software",
+                            "description": "MaveDB API agent, version 2025.5.0",
+                            "extensions": [
+                                {
+                                    "name": "mavedbApiVersion",
+                                    "value": "2025.5.0"
+                                }
+                            ],
+                            "name": "MaveDB API",
+                            "type": "Agent"
+                        },
+                        "date": "2025-11-25 00:00:00",
+                        "description": "Contribution from the MaveDB API",
+                        "name": "MaveDB API",
+                        "type": "Contribution"
+                    },
+                    {
+                        "activityType": "human genome sequence mapping process",
+                        "contributor": {
+                            "agentType": "Software",
+                            "description": "MaveDB VRS mapping agent, version 2025.2.0",
+                            "extensions": [
+                                {
+                                    "name": "mavedbVrsVersion",
+                                    "value": "2025.2.0"
+                                }
+                            ],
+                            "name": "MaveDB VRS Mapping Agent",
+                            "type": "Agent"
+                        },
+                        "date": "2025-10-04 00:00:00",
+                        "description": "Contribution from the MaveDB VRS mapping software",
+                        "name": "MaveDB VRS Mapper",
+                        "type": "Contribution"
+                    },
+                    {
+                        "activityType": "http://purl.obolibrary.org/obo/CRO_0000105",
+                        "contributor": {
+                            "agentType": "Person",
+                            "description": "MaveDB ORCid authenticated user 0000-0002-7565-2463",
+                            "name": "0000-0002-7565-2463",
+                            "type": "Agent"
+                        },
+                        "date": "2025-10-21 00:00:00",
+                        "description": "When this resource was first submitted, and by whom.",
+                        "extensions": [
+                            {
+                                "name": "resourceType",
+                                "value": "Variant"
+                            }
+                        ],
+                        "name": "MaveDB Dataset Creator",
+                        "type": "Contribution"
+                    },
+                    {
+                        "activityType": "http://purl.obolibrary.org/obo/CRO_0000103",
+                        "contributor": {
+                            "agentType": "Person",
+                            "description": "MaveDB ORCid authenticated user 0000-0002-7565-2463",
+                            "name": "0000-0002-7565-2463",
+                            "type": "Agent"
+                        },
+                        "date": "2025-10-21 00:00:00",
+                        "description": "When this resource was last modified, and by whom.",
+                        "extensions": [
+                            {
+                                "name": "resourceType",
+                                "value": "Variant"
+                            }
+                        ],
+                        "name": "MaveDB Dataset Modifier",
+                        "type": "Contribution"
+                    }
+                ],
+                "description": "Variant functional impact statement for urn:mavedb:00001231-a-2#1.",
+                "direction": "disputes",
+                "hasEvidenceLines": [
+                    {
+                        "contributions": [
+                            {
+                                "activityType": "software application programming interface",
+                                "contributor": {
+                                    "agentType": "Software",
+                                    "description": "MaveDB API agent, version 2025.5.0",
+                                    "extensions": [
+                                        {
+                                            "name": "mavedbApiVersion",
+                                            "value": "2025.5.0"
+                                        }
+                                    ],
+                                    "name": "MaveDB API",
+                                    "type": "Agent"
+                                },
+                                "date": "2025-11-25 00:00:00",
+                                "description": "Contribution from the MaveDB API",
+                                "name": "MaveDB API",
+                                "type": "Contribution"
+                            },
+                            {
+                                "activityType": "human genome sequence mapping process",
+                                "contributor": {
+                                    "agentType": "Software",
+                                    "description": "MaveDB VRS mapping agent, version 2025.2.0",
+                                    "extensions": [
+                                        {
+                                            "name": "mavedbVrsVersion",
+                                            "value": "2025.2.0"
+                                        }
+                                    ],
+                                    "name": "MaveDB VRS Mapping Agent",
+                                    "type": "Agent"
+                                },
+                                "date": "2025-10-04 00:00:00",
+                                "description": "Contribution from the MaveDB VRS mapping software",
+                                "name": "MaveDB VRS Mapper",
+                                "type": "Contribution"
+                            },
+                            {
+                                "activityType": "http://purl.obolibrary.org/obo/CRO_0000105",
+                                "contributor": {
+                                    "agentType": "Person",
+                                    "description": "MaveDB ORCid authenticated user 0000-0002-7565-2463",
+                                    "name": "0000-0002-7565-2463",
+                                    "type": "Agent"
+                                },
+                                "date": "2025-10-21 00:00:00",
+                                "description": "When this resource was first submitted, and by whom.",
+                                "extensions": [
+                                    {
+                                        "name": "resourceType",
+                                        "value": "Variant"
+                                    }
+                                ],
+                                "name": "MaveDB Dataset Creator",
+                                "type": "Contribution"
+                            },
+                            {
+                                "activityType": "http://purl.obolibrary.org/obo/CRO_0000103",
+                                "contributor": {
+                                    "agentType": "Person",
+                                    "description": "MaveDB ORCid authenticated user 0000-0002-7565-2463",
+                                    "name": "0000-0002-7565-2463",
+                                    "type": "Agent"
+                                },
+                                "date": "2025-10-21 00:00:00",
+                                "description": "When this resource was last modified, and by whom.",
+                                "extensions": [
+                                    {
+                                        "name": "resourceType",
+                                        "value": "Variant"
+                                    }
+                                ],
+                                "name": "MaveDB Dataset Modifier",
+                                "type": "Contribution"
+                            }
+                        ],
+                        "description": "Functional evidence line for urn:mavedb:00001231-a-2#1",
+                        "directionOfEvidenceProvided": "supports",
+                        "hasEvidenceItems": [
+                            {
+                                "contributions": [
+                                    {
+                                        "activityType": "software application programming interface",
+                                        "contributor": {
+                                            "agentType": "Software",
+                                            "description": "MaveDB API agent, version 2025.5.0",
+                                            "extensions": [
+                                                {
+                                                    "name": "mavedbApiVersion",
+                                                    "value": "2025.5.0"
+                                                }
+                                            ],
+                                            "name": "MaveDB API",
+                                            "type": "Agent"
+                                        },
+                                        "date": "2025-11-25 00:00:00",
+                                        "description": "Contribution from the MaveDB API",
+                                        "name": "MaveDB API",
+                                        "type": "Contribution"
+                                    },
+                                    {
+                                        "activityType": "human genome sequence mapping process",
+                                        "contributor": {
+                                            "agentType": "Software",
+                                            "description": "MaveDB VRS mapping agent, version 2025.2.0",
+                                            "extensions": [
+                                                {
+                                                    "name": "mavedbVrsVersion",
+                                                    "value": "2025.2.0"
+                                                }
+                                            ],
+                                            "name": "MaveDB VRS Mapping Agent",
+                                            "type": "Agent"
+                                        },
+                                        "date": "2025-10-04 00:00:00",
+                                        "description": "Contribution from the MaveDB VRS mapping software",
+                                        "name": "MaveDB VRS Mapper",
+                                        "type": "Contribution"
+                                    }
+                                ],
+                                "description": "Variant effect study result for urn:mavedb:00001231-a-2#1.",
+                                "focusVariant": {
+                                    "digest": "ilDitVyCH7KPSLYETdvGo3f2hdrYbOuA",
+                                    "expressions": [
+                                        {
+                                            "syntax": "hgvs.p",
+                                            "value": "NP_000229.1:p.Pro2Ala"
+                                        }
+                                    ],
+                                    "extensions": [
+                                        {
+                                            "name": "vrs_ref_allele_seq",
+                                            "value": "P"
+                                        }
+                                    ],
+                                    "id": "ga4gh:VA.ilDitVyCH7KPSLYETdvGo3f2hdrYbOuA",
+                                    "location": {
+                                        "digest": "DyNbMkVyGIxAa1PoX63xggeeasjUOMcV",
+                                        "end": 2,
+                                        "id": "ga4gh:SL.DyNbMkVyGIxAa1PoX63xggeeasjUOMcV",
+                                        "sequenceReference": {
+                                            "refgetAccession": "SQ.UFpWsDMKsAW-XCCTpK4G9XEREMwBHejz",
+                                            "type": "SequenceReference"
+                                        },
+                                        "start": 1,
+                                        "type": "SequenceLocation"
+                                    },
+                                    "state": {
+                                        "sequence": "A",
+                                        "type": "LiteralSequenceExpression"
+                                    },
+                                    "type": "Allele"
+                                },
+                                "functionalImpactScore": 69.39316083,
+                                "reportedIn": [
+                                    "https://mavedb.org/score-sets/urn:mavedb:00001231-a-2?variant=urn%3Amavedb%3A00001231-a-2%231",
+                                    "https://mavedb.org/variant/PA3057699036"
+                                ],
+                                "sourceDataSet": {
+                                    "description": "Cell surface expression deep mutational scan of KCNH2 variants in HEK293T cells",
+                                    "id": "urn:mavedb:00001231-a-2",
+                                    "license": {
+                                        "name": "CC0"
+                                    },
+                                    "name": "Scores from cell surface expression deep mutational scan of KCNH2 in HEK293T cells",
+                                    "releaseDate": "2025-10-21",
+                                    "reportedIn": "https://mavedb.org/score-sets/urn:mavedb:00001231-a-2",
+                                    "type": "DataSet"
+                                },
+                                "specifiedBy": {
+                                    "name": "Experimental protocol",
+                                    "reportedIn": "http://www.ncbi.nlm.nih.gov/pubmed/39315434",
+                                    "type": "Method"
+                                },
+                                "type": "ExperimentalVariantFunctionalImpactStudyResult"
+                            }
+                        ],
+                        "reportedIn": [
+                            {
+                                "description": "Cell surface expression deep mutational scan of KCNH2 variants in HEK293T cells",
+                                "documentType": "score set",
+                                "id": "urn:mavedb:00001231-a-2",
+                                "name": "MaveDB Score Set",
+                                "title": "Scores from cell surface expression deep mutational scan of KCNH2 in HEK293T cells",
+                                "type": "Document",
+                                "urls": [
+                                    "https://mavedb.org/score-sets/urn:mavedb:00001231-a-2"
+                                ]
+                            }
+                        ],
+                        "specifiedBy": {
+                            "name": "Experimental protocol",
+                            "reportedIn": "http://www.ncbi.nlm.nih.gov/pubmed/39315434",
+                            "type": "Method"
+                        },
+                        "type": "EvidenceLine"
+                    }
+                ],
+                "proposition": {
+                    "description": "Variant functional impact proposition for urn:mavedb:00001231-a-2#1.",
+                    "experimentalContextQualifier": {
+                        "description": "Cell surface expression deep mutational scan of KCNH2 variants in HEK293T cells",
+                        "documentType": "experiment",
+                        "id": "urn:mavedb:00001231-a",
+                        "name": "MaveDB Experiment",
+                        "title": "Cell surface expression deep mutational scan of KCNH2 in HEK293T cells",
+                        "type": "Document",
+                        "urls": [
+                            "https://mavedb.org/experiments/urn:mavedb:00001231-a"
+                        ]
+                    },
+                    "objectSequenceFeature": "placeholder",
+                    "predicate": "impactsFunctionOf",
+                    "subjectVariant": {
+                        "digest": "ilDitVyCH7KPSLYETdvGo3f2hdrYbOuA",
+                        "expressions": [
+                            {
+                                "syntax": "hgvs.p",
+                                "value": "NP_000229.1:p.Pro2Ala"
+                            }
+                        ],
+                        "extensions": [
+                            {
+                                "name": "vrs_ref_allele_seq",
+                                "value": "P"
+                            }
+                        ],
+                        "id": "ga4gh:VA.ilDitVyCH7KPSLYETdvGo3f2hdrYbOuA",
+                        "location": {
+                            "digest": "DyNbMkVyGIxAa1PoX63xggeeasjUOMcV",
+                            "end": 2,
+                            "id": "ga4gh:SL.DyNbMkVyGIxAa1PoX63xggeeasjUOMcV",
+                            "sequenceReference": {
+                                "refgetAccession": "SQ.UFpWsDMKsAW-XCCTpK4G9XEREMwBHejz",
+                                "type": "SequenceReference"
+                            },
+                            "start": 1,
+                            "type": "SequenceLocation"
+                        },
+                        "state": {
+                            "sequence": "A",
+                            "type": "LiteralSequenceExpression"
+                        },
+                        "type": "Allele"
+                    },
+                    "type": "ExperimentalVariantFunctionalImpactProposition"
+                },
+                "specifiedBy": {
+                    "name": "Variant interpretation guideline",
+                    "reportedIn": "https://pubmed.ncbi.nlm.nih.gov/29785012/",
+                    "type": "Method"
+                },
+                "type": "Statement"
+            }
+        ],
+        "specifiedBy": {
+            "methodType": "BS3",
+            "name": "Software version",
+            "reportedIn": "https://github.com/Dzeiberg/mave_calibration",
+            "type": "Method"
+        },
+        "strengthOfEvidenceProvided": {
+            "primaryCoding": {
+                "code": "moderate",
+                "system": "ACMG Guidelines, 2015"
+            }
+        },
+        "targetProposition": {
+            "description": "Variant pathogenicity proposition for urn:mavedb:00001231-a-2#1.",
+            "objectCondition": {
+                "conceptType": "Disease",
+                "primaryCoding": {
+                    "code": "C0012634",
+                    "iris": [
+                        "http://identifiers.org/medgen/C0012634"
+                    ],
+                    "system": "https://www.ncbi.nlm.nih.gov/medgen/"
+                }
+            },
+            "predicate": "isCausalFor",
+            "subjectVariant": {
+                "digest": "ilDitVyCH7KPSLYETdvGo3f2hdrYbOuA",
+                "expressions": [
+                    {
+                        "syntax": "hgvs.p",
+                        "value": "NP_000229.1:p.Pro2Ala"
+                    }
+                ],
+                "extensions": [
+                    {
+                        "name": "vrs_ref_allele_seq",
+                        "value": "P"
+                    }
+                ],
+                "id": "ga4gh:VA.ilDitVyCH7KPSLYETdvGo3f2hdrYbOuA",
+                "location": {
+                    "digest": "DyNbMkVyGIxAa1PoX63xggeeasjUOMcV",
+                    "end": 2,
+                    "id": "ga4gh:SL.DyNbMkVyGIxAa1PoX63xggeeasjUOMcV",
+                    "sequenceReference": {
+                        "refgetAccession": "SQ.UFpWsDMKsAW-XCCTpK4G9XEREMwBHejz",
+                        "type": "SequenceReference"
+                    },
+                    "start": 1,
+                    "type": "SequenceLocation"
+                },
+                "state": {
+                    "sequence": "A",
+                    "type": "LiteralSequenceExpression"
+                },
+                "type": "Allele"
+            },
+            "type": "VariantPathogenicityProposition"
+        },
+        "type": "EvidenceLine"
+    },
+    "variant_urn": "urn:mavedb:00001231-a-2#1"
+}
