@@ -2,18 +2,47 @@
 
 **Software used during the course**      
 
-| Software | Version (if not latest) | Module |Notes |
-|-------------|--------------|----------|-------------|
-| [Software Name](Software link) | Version Details | Module Name| Space for notes |
+## Software used during the course
+
+| Software | Version (if not latest) | Module | Notes |
+|----------|--------------------------|--------|-------|
+| [Chrome](https://www.google.com/chrome/) | Latest | All modules | Required for browser-based tools |
+| [Firefox](https://www.mozilla.org/firefox/) | Latest | All modules | Alternative browser support |
+| [Miniforge](https://github.com/conda-forge/miniforge) | 25.3.1 | General setup | Used for managing Python/R environments |
+| [Python](https://www.python.org/) | 3.12.11 | General setup | Core environment for notebooks |
+| [Jupyter Notebook](https://jupyter.org/) | 7.4.7 | MPRA QC | Used for interactive analysis |
+| [JupyterLab](https://jupyter.org/) | 4.4.9 | MPRA QC | Enhanced notebook interface |
+| [marimo](https://github.com/marimo-team/marimo) | 0.16.5 | MPRA QC | Lightweight notebook runner |
+| [R](https://www.r-project.org/) | 4.3.3 | MPRA QC | Used for data analysis and visualisation |
+| [RStudio](https://posit.co/download/rstudio-desktop/) | 2025.09.2+418 | MPRA QC | IDE for R |
+| [Enrich2](https://github.com/FowlerLab/Enrich2) | 2.0.2 | MAVE Data Analysis II | For variant enrichment analysis |
+| [CountESS](https://github.com/varianteffect/countess) | 0.1.10 | MAVE Data Analysis II | For sequence counting |
+| [tidyverse](https://www.tidyverse.org/) | Latest | MPRA QC | R package suite for data wrangling |
+| [ggplot2](https://ggplot2.tidyverse.org/) | Latest | MPRA QC | R package for plotting |
+| [dplyr](https://dplyr.tidyverse.org/) | Latest | MPRA QC | R package for data manipulation |
+| [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) | Latest | Clinical validation | For reviewing clinical datasets |
+| [Docker](https://www.docker.com/) | Latest | MAVE Data Analysis I | Used for containerised environments |
+| [Nextflow](https://www.nextflow.io/) | Latest | MAVE Data Analysis I | Workflow management system |
+| [QUANTS](https://github.com/varianteffect/QUANTS) | 3.1.0.0 | MAVE Data Analysis I | Analysis software for MAVE |
+| [MAVE-QC](https://github.com/varianteffect/maveqc) | v0.2.9.229 | MAVE Data Analysis I | QC pipeline for MAVE data |
+| [Ensembl VEP](https://www.ensembl.org/info/docs/tools/vep/index.html) | 115.2 | Annotation | 23 GB cache required for local use |
 
 
-## notebook bash kernel
+## Bookmarks and Resources
+
+| Resource | Link |
+|----------|------|
+| DECIPHER | [https://www.deciphergenomics.org/](https://www.deciphergenomics.org/) |
+| Mol* Viewer | [https://molstar.org/viewer/](https://molstar.org/viewer/) |
+| ClinVar | [https://www.ncbi.nlm.nih.gov/clinvar/](https://www.ncbi.nlm.nih.gov/clinvar/) |
+
+## Rolling Nextflow to version 23.10.1
+### notebook bash kernel
 ```bash
 pip install bash_kernel
 python -m bash_kernel.install
 ```
- 
-## Nextflow version 23.10.1
+### netflow roll back
 ```bash
 export NXF_VER=23.10.1
 curl -s https://get.nextflow.io | bash
