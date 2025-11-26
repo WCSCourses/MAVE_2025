@@ -5,8 +5,8 @@
 ### 23–28 November 2025, Wellcome Genome Campus, Hinxton, UK
 
 [Wellcome Connecting Science Course Run Website](https://coursesandconferences.wellcomeconnectingscience.org/event/multiplex-assays-of-variant-effects-maves-approaches-analysis-and-interpretation-20251123/) <br /> 
-[Course Time Table 2025](#) <br /> 
-[Course Informatics Guide](#)
+[Course Time Table 2025](https://github.com/WCSCourses/MAVE_2025/blob/main/MAVE_Course_Timetable25.pdf) <br /> 
+[Course Informatics Guide](https://github.com/WCSCourses/MAVE_2025/blob/main/Course_InformaticsGuide.md)
 
 ### Summary
 
